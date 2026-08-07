@@ -476,6 +476,7 @@ configuration, verifying a constant nonzero Jacobian determinant and a
 tested fiber with three distinct points.
 
 ### 10.2 The clean-room runbook
+All files presented in <https://github.com/michaelmross/jacobian/tree/main/cleanroom>.
 
 `checkall.sh` runs the whole package in tiers, stopping at the first failure,
 and writes `checkall.log`. Tiers must be read as having DIFFERENT evidential
