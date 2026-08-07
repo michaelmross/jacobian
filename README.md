@@ -23,7 +23,7 @@ configuration, uniquely.
 
 ### /[cleanroom](/cleanroom)
 
-Verification code and logs for both notes. Each note's own verification
+Verification code for both notes. Each note's own verification
 section explains what the scripts establish — and what they do not.
 
 ---
