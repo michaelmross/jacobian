@@ -8,7 +8,7 @@ counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jac
 ### [A cubic corollary](trichotomy.md)
 
 For one cut in the (j,k) = (1,2) construction, the three classes of cubic
-operator behave as follows: **(3)** carries a nonconstant-unit obstruction,
+operator behave such that: **(3)** carries a nonconstant-unit obstruction,
 **(2,1)** gives the affine miracle and Alpöge's counterexample, and
 **(1,1,1)** carries an Euler-characteristic obstruction. Three short,
 independent arguments using three different invariants.
