@@ -1,7 +1,7 @@
 # Uniqueness of the Jacobian counterexample within Tao's construction
 ## (j = 1, target dimension at least three)
 
-*Self-contained. See the revision history in §9.*
+*A self-contained exposition. See the revision history in §9.*
 
 ---
 
