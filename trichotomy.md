@@ -1,6 +1,6 @@
 # A cubic corollary: the three classes of one-cut (1,2) construction
 
-A note about the Jacobian counterexample. *Self-contained. (Verified by [trichotomy.py](https://github.com/michaelmross/jacobian/blob/main/trichotomy.py).)*
+A note about the Jacobian counterexample. *Self-contained. (Verified by [trichotomy.py](https://github.com/michaelmross/jacobian/blob/main/cleanroom/trichotomy.py).)*
 
 ---
 
