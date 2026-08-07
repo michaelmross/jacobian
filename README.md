@@ -13,7 +13,7 @@ operator behave as follows: **(3)** carries a nonconstant-unit obstruction,
 **(1,1,1)** carries an Euler-characteristic obstruction. Three short,
 independent arguments using three different invariants.
 
-### [Uniqueness for j = 1](uniqueness.md)
+### [Uniqueness of j = 1](uniqueness.md)
 
 For Sym¹ × Sym^k with any number of linearly independent cuts and target
 dimension at least three, the compactly supported Euler characteristic
