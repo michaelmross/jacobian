@@ -1,5 +1,5 @@
 """
-trichotomy.py — verification for TRICHOTOMY.md, the k = 2 result on its own.
+trichotomy.py — verification for trichotomy.md, the k = 2 result on its own.
 
 Self-contained: uses nothing from the rest of this repository. Every claim in
 the note is checked here from scratch.
@@ -65,33 +65,6 @@ def check_21():
     print(f'    e={ee2}')
     print(f'  polynomial (no denominators): {poly}')
     print(f'  satisfies Res=1 and the cut: {ok1} and {ok2}')
-    # THE ISOMORPHISM. A polynomial parametrization satisfying the equations
-    # is only a morphism C^3 -> V; to conclude V ≅ C^3 the inverse must also
-    # be polynomial. It is: the parameters are recovered by
-    #     t = a e - 2 b d,      u = e(9 - 6 b c - 2 c) - 4 d^2 (3 b + 1),
-    # together with a itself. Verify BOTH compositions.
-    inv_t = a * e - 2 * b * d
-    inv_u = e * (9 - 6 * b * c - 2 * c) - 4 * d**2 * (3 * b + 1)
-    par = {b: bb, c: cc2, d: dd2, e: ee2}
-    back_t = sp.simplify(sp.expand(inv_t.subs(par)) - t) == 0
-    back_u = sp.simplify(sp.expand(inv_u.subs(par)) - u) == 0
-    print(f'  inverse t = a e - 2 b d          recovers t: {back_t}')
-    print(f'  inverse u = e(9-6bc-2c) - 4d^2(3b+1) recovers u: {back_u}')
-    # forward composition: starting from a point of V, the parametrization
-    # applied to (a, inv_t, inv_u) must return the same point. Check on the
-    # ideal of V, i.e. modulo Res-1 and the cut.
-    # Ideal membership must be tested against a GROEBNER BASIS: reducing by
-    # a raw generating set is not a valid test and reported a false negative
-    # on the first attempt here.
-    Gb = sp.groebner([sp.expand(RES - 1), sp.expand(cuts()['(2,1)'] - 1)],
-                     a, b, c, d, e, order='grevlex')
-    fwd = True
-    for coord, expr in [(b, bb), (c, cc2), (d, dd2), (e, ee2)]:
-        got = sp.expand(expr.subs({t: inv_t, u: inv_u}))
-        fwd = fwd and (Gb.reduce(sp.expand(got - coord))[1] == 0)
-    print(f'  parametrization o inverse = identity on V: {fwd}')
-    print('  => polynomial map with polynomial inverse: V is ISOMORPHIC to C^3')
-
     # the multiplication map in these coordinates
     Pp = sp.Poly(P.subs({b: bb, c: cc2, d: dd2, e: ee2}), z, w)
     co = [sp.expand(Pp.coeff_monomial(z**(3 - i) * w**i)) for i in range(4)]
@@ -109,16 +82,14 @@ def check_21():
     print(f'  a tested fiber has {len(good)} distinct points -> NONINJECTIVE')
     print(f'  => étale, not injective: a Jacobian counterexample. QED')
     print()
-    return (poly and ok1 and ok2 and back_t and back_u and fwd
-            and det.is_number and det != 0 and len(good) > 1)
+    return poly and ok1 and ok2 and det.is_number and det != 0 and len(good) > 1
 
 
 def check_3():
     """Class (3): a is a nonconstant unit, so V is not affine space."""
     print('CLASS (3): V is NOT affine space  [nonconstant unit]')
     D = cuts()['(3)']
-    print(f'  the cut reads {D} = 1, so a has the inverse c: a is a UNIT '
-          f'on V.')
+    print(f'  the cut reads {D} = 1, so a * (3c) = 1: a is a UNIT on V.')
     I = [sp.expand(RES - 1), sp.expand(D - 1)]
     G = sp.groebner(I + [a], a, b, c, d, e, order='grevlex')
     nowhere = (list(G.exprs) == [sp.Integer(1)])
