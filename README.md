@@ -21,7 +21,7 @@ satisfies χ(V) = (k−1)N. Since a counterexample requires χ(V) = 1, this
 forces k = 2, one cut, class (2,1), with nonzero cut value — Alpöge's
 configuration, uniquely.
 
-### /cleanroom
+### /[cleanroom](/cleanroom)
 
 Verification code and logs for both notes. Each note's own verification
 section explains what the scripts establish, and — as importantly — what
