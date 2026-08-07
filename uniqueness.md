@@ -558,4 +558,4 @@ Framework: T. Tao, "A digestion of the Jacobian conjecture counterexample"
 (July 2026), on the counterexample of L. Alpöge with Claude Fable 5.
 
 Note written in adversarial human-AI collaboration: Michael M. Ross (<michaelmross@cantab.net>)
-with Claude Fable 5 and Opus 5 Max (Anthropic) and GPT-5.6 Sol (OpenAI).
+with Claude Fable 5 and Opus 5 (Anthropic) and GPT-5.6 Sol (OpenAI).
