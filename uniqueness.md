@@ -420,8 +420,6 @@ Version 1 was reviewed adversarially; the following were corrected.
 9. §4, §6: the coordinate-change determinant and the left-kernel identities
    displayed explicitly, rather than left to be inferred.
 
----
-
 ### Second review
 
 10. Lemma 5 assumed k >= 2 implicitly: for k = 1 condition (ii) is
@@ -559,11 +557,5 @@ control.
 Framework: T. Tao, "A digestion of the Jacobian conjecture counterexample"
 (July 2026), on the counterexample of L. Alpöge with Claude Fable 5.
 
-Developed in adversarial human-AI collaboration. Two intermediate claims did
-not survive scrutiny and are recorded because they shaped the final proof: a
-deformation direction that proved to be a formal jet which does not
-integrate, and — more consequentially — an assertion that V ≅ C^n implies the
-fiber V ∩ {t = 0} is affine space. The latter is false in general (a
-hypersurface in C^n can be C^* x C^{n-2}), and its collapse is what forced
-the replacement of fiber arguments by the global invariants — units, then
-Euler characteristic — used here and in `TRICHOTOMY.md`.
+Note written in adversarial human-AI collaboration: Michael M. Ross (<michaelmross@cantab.net>)
+with Claude Fable 5 and Opus 5 Max (Anthropic) and GPT-5.6 Sol (OpenAI).
