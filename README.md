@@ -5,7 +5,7 @@ Claude Fable 5), analyzed through the construction described in Terence
 Tao's [digestion of the
 counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/).
 
-### [trichotomy.md](trichotomy.md) — A cubic corollary
+### [A cubic corollary](trichotomy.md)
 
 For one cut in the (j,k) = (1,2) construction, the three classes of cubic
 operator behave as follows: **(3)** carries a nonconstant-unit obstruction,
@@ -13,7 +13,7 @@ operator behave as follows: **(3)** carries a nonconstant-unit obstruction,
 **(1,1,1)** carries an Euler-characteristic obstruction. Three short,
 independent arguments using three different invariants.
 
-### [uniqueness.md](uniqueness.md) — Uniqueness for j = 1
+### [Uniqueness for j = 1](uniqueness.md)
 
 For Sym¹ × Sym^k with any number of linearly independent cuts and target
 dimension at least three, the compactly supported Euler characteristic
