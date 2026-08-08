@@ -546,7 +546,7 @@ Logs, and which run produces each:
   sweep; it exists only if that follow-up was run. The (3,3) three-cut result
   cited in §10.3 comes from such a run.
 
-Singular is required.
+*Singular is required.*
 
 ---
 
