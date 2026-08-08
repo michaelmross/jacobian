@@ -28,6 +28,8 @@ configuration, uniquely.
 Verification code for both notes. Each note's own verification
 section explains what the scripts establish — and what they do not.
 
+![The three cubic classes](trichotomy.svg)
+
 ---
 
 Michael M. Ross · August 7, 2026 · michaelmross@cantab.net
