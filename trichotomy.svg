@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="400" viewBox="0 0 680 400" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>The three cubic classes as root configurations on the projective line</title>
+<desc>Three panels showing configurations of three points on a line: a triple root giving class (3), a double plus simple root giving class (2,1), and three distinct roots giving class (1,1,1). Only the middle configuration yields the affine miracle and Alpoge's counterexample.</desc>
+<style>
+  .t  { font-size: 14px; font-weight: 400; }
+  .th { font-size: 14px; font-weight: 500; }
+  .ts { font-size: 12px; font-weight: 400; }
+  .gray-fill   { fill: #F1EFE8; stroke: #5F5E5A; }
+  .gray-title  { fill: #2C2C2A; }
+  .gray-sub    { fill: #5F5E5A; }
+  .gray-dot    { fill: #5F5E5A; }
+  .gray-line   { stroke: #888780; }
+  .teal-fill   { fill: #E1F5EE; stroke: #0F6E56; }
+  .teal-title  { fill: #04342C; }
+  .teal-sub    { fill: #0F6E56; }
+  .teal-dot    { fill: #0F6E56; }
+  .teal-line   { stroke: #1D9E75; }
+  .caption     { fill: #5F5E5A; }
+  @media (prefers-color-scheme: dark) {
+    .gray-fill  { fill: #444441; stroke: #B4B2A9; }
+    .gray-title { fill: #F1EFE8; }
+    .gray-sub   { fill: #D3D1C7; }
+    .gray-dot   { fill: #D3D1C7; }
+    .gray-line  { stroke: #888780; }
+    .teal-fill  { fill: #085041; stroke: #9FE1CB; }
+    .teal-title { fill: #E1F5EE; }
+    .teal-sub   { fill: #9FE1CB; }
+    .teal-dot   { fill: #9FE1CB; }
+    .teal-line  { stroke: #5DCAA5; }
+    .caption    { fill: #B4B2A9; }
+  }
+</style>
+
+<rect class="gray-fill" x="40" y="60" width="185" height="212" rx="12" stroke-width="0.5"/>
+<text class="th gray-title" x="132" y="88" text-anchor="middle" dominant-baseline="central">class (3)</text>
+<line class="gray-line" x1="65" y1="130" x2="200" y2="130" stroke-width="0.5"/>
+<circle class="gray-dot" cx="132" cy="130" r="13"/>
+<text class="ts gray-sub" x="132" y="158" text-anchor="middle" dominant-baseline="central">one root, &#215;3</text>
+<text class="t gray-title" x="132" y="188" text-anchor="middle" dominant-baseline="central">G = Z&#179;</text>
+<text class="th gray-title" x="132" y="222" text-anchor="middle" dominant-baseline="central">a is a unit on V</text>
+<text class="ts gray-sub" x="132" y="246" text-anchor="middle" dominant-baseline="central">not affine space</text>
+
+<rect class="teal-fill" x="245" y="60" width="185" height="212" rx="12" stroke-width="1.5"/>
+<text class="th teal-title" x="337" y="88" text-anchor="middle" dominant-baseline="central">class (2,1)</text>
+<line class="teal-line" x1="270" y1="130" x2="405" y2="130" stroke-width="0.5"/>
+<circle class="teal-dot" cx="305" cy="130" r="10"/>
+<circle class="teal-dot" cx="378" cy="130" r="6"/>
+<text class="ts teal-sub" x="337" y="158" text-anchor="middle" dominant-baseline="central">roots &#215;2 and &#215;1</text>
+<text class="t teal-title" x="337" y="188" text-anchor="middle" dominant-baseline="central">G = Z&#178;W</text>
+<text class="th teal-title" x="337" y="222" text-anchor="middle" dominant-baseline="central">V &#8773; C&#179;</text>
+<text class="ts teal-sub" x="337" y="246" text-anchor="middle" dominant-baseline="central">the counterexample</text>
+
+<rect class="gray-fill" x="450" y="60" width="185" height="212" rx="12" stroke-width="0.5"/>
+<text class="th gray-title" x="542" y="88" text-anchor="middle" dominant-baseline="central">class (1,1,1)</text>
+<line class="gray-line" x1="475" y1="130" x2="610" y2="130" stroke-width="0.5"/>
+<circle class="gray-dot" cx="500" cy="130" r="6"/>
+<circle class="gray-dot" cx="542" cy="130" r="6"/>
+<circle class="gray-dot" cx="584" cy="130" r="6"/>
+<text class="ts gray-sub" x="542" y="158" text-anchor="middle" dominant-baseline="central">three distinct roots</text>
+<text class="t gray-title" x="542" y="188" text-anchor="middle" dominant-baseline="central">G = ZW(Z&#8722;W)</text>
+<text class="th gray-title" x="542" y="222" text-anchor="middle" dominant-baseline="central">&#967;(V) = 0 &#8800; 1</text>
+<text class="ts gray-sub" x="542" y="246" text-anchor="middle" dominant-baseline="central">not affine space</text>
+
+<text class="ts caption" x="340" y="308" text-anchor="middle" dominant-baseline="central">Degeneracy at a point p needs G divisible by the square of p&#8217;s linear form,</text>
+<text class="ts caption" x="340" y="328" text-anchor="middle" dominant-baseline="central">so a root of multiplicity &#8805; 2: only the left two configurations qualify.</text>
+<text class="ts caption" x="340" y="356" text-anchor="middle" dominant-baseline="central">(3) degenerates too far &#8212; the cut row vanishes, leaving no consistent point.</text>
+<text class="ts caption" x="340" y="376" text-anchor="middle" dominant-baseline="central">(2,1) leaves exactly one. One point is what an affine miracle requires.</text>
+</svg>
