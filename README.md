@@ -5,6 +5,8 @@ Claude Fable 5) — a systematic and empirically supported analysis keyed off th
 Tao's [digestion of the
 counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/).
 
+[![DOI](https://zenodo.org/badge/1326722103.svg)](https://doi.org/10.5281/zenodo.21845680)
+
 ### [A cubic corollary](trichotomy.md)
 
 For one cut in the (j,k) = (1,2) construction, the three classes of cubic
