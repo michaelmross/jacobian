@@ -28,4 +28,4 @@ section explains what the scripts establish — and what they do not.
 
 ---
 
-Michael M. Ross · michaelmross@cantab.net
+Michael M. Ross · August 7, 2026 · michaelmross@cantab.net
