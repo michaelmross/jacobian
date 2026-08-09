@@ -50,7 +50,7 @@ Tao states that for k = 2 with one cut the affine miracle occurs precisely in
 the case of two identical roots, and verifies that case himself by an
 explicit coordinate computation; his post contains no argument for the
 negative half of "precisely", which his construction does not require. Those
-two cases are proved in the companion note [trichotomy.md](trichotomy.md).)*, by arguments
+two cases are proved in the companion note, [trichotomy.md](trichotomy.md), by arguments
 independent of everything below. This note proves the corresponding
 uniqueness statement for all of j = 1.
 
