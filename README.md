@@ -5,7 +5,7 @@ Claude Fable 5) — a systematic and empirically supported analysis keyed off th
 Tao's [digestion of the
 counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1326722103.svg)](https://doi.org/10.5281/zenodo.21845680)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.1326722103-blue.svg)](https://doi.org/10.5281/zenodo.21845680)
 
 ### [A cubic corollary](trichotomy.md)
 
