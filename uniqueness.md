@@ -248,7 +248,7 @@ chi_c(V) = 1 - 1 = 0 != 1. **We may therefore assume k >= 2 for the rest of
 this section**, which is what makes sigma^{k-1} a nonconstant function of
 sigma in Lemma 5.
 
-**Lemma 5.** Let k >= 2 and let L_p be a degenerate line, parametrized by
+**Lemma 5.** Let k >= 2 and let L_p be a degenerate line, parameterized by
 sigma via (t, s) = sigma (t_0, s_0). The inconsistent part of L_p \ {0}
 has
 
@@ -261,28 +261,28 @@ sigma,
 
         beta_0 sigma^{k-1} R_0(1) + sum_r beta_r R_r(1) = 0.
 
-Let K = {beta' in C^m : sum_r beta'_r R_r(1) = 0}, independent of sigma.
+Let K = {beta′ in C^m : sum_r beta′_r R_r(1) = 0}, independent of sigma.
 
 *Case A: R_0(1) not in span{R_r(1)}.* Then beta_0 = 0 is forced and
 
-        ker M(sigma)^T = {(0, beta') : beta' in K},
+        ker M(sigma)^T = {(0, beta′) : beta′ in K},
 
 independent of sigma. Consistency is the condition that every left-kernel
-vector annihilate the right-hand side, here beta' . v_cut = 0 for all
-beta' in K — also independent of sigma. So the whole punctured line is
+vector annihilate the right-hand side, here beta′ . v_cut = 0 for all
+beta′ in K — also independent of sigma. So the whole punctured line is
 consistent, or the whole of it is inconsistent; in the first case the
 inconsistent part is empty and in the second it is C^*. Either way
 chi_c = 0.
 
 *Case B: R_0(1) = sum_r gamma_r R_r(1).* Then
 
-        ker M(sigma)^T = span{(1, -sigma^{k-1} gamma)} + {(0, beta') :
-                              beta' in K},
+        ker M(sigma)^T = span{(1, -sigma^{k-1} gamma)} + {(0, beta′) :
+                              beta′ in K},
 
 (gamma is determined only modulo K, but gamma . v_cut is well defined once
 condition (i) below holds). Consistency requires
 
-    (i)  beta' . v_cut = 0 for every beta' in K      [independent of sigma],
+    (i)  beta′ . v_cut = 0 for every beta′ in K      [independent of sigma],
     (ii) sigma^{k-1} (gamma . v_cut) = 1.
 
 If (i) fails, or gamma . v_cut = 0, no point of the line is consistent: the
