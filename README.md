@@ -23,7 +23,7 @@ satisfies χ(V) = (k−1)N. Since a counterexample requires χ(V) = 1, this
 forces k = 2, one cut, class (2,1), with nonzero cut value — Alpöge's
 configuration, uniquely.
 
-### /[[cleanroom](https://github.com/michaelmross/jacobian/tree/main/cleanroom)]
+### [/cleanroom](https://github.com/michaelmross/jacobian/tree/main/cleanroom)
 
 Verification code for both notes. Each note's own verification
 section explains what the scripts establish — and what they do not.
