@@ -1,6 +1,6 @@
 # jacobian
 
-Two notes and a code repository ([github.com/michaelmross/jacobian](https://github.com/michaelmross/jacobian)) about the Jacobian conjecture counterexample of Levent Alpöge (with
+Two notes and a code repository about the Jacobian conjecture counterexample of Levent Alpöge (with
 Claude Fable 5) — a systematic and empirically supported analysis keyed off the construction described in Terence
 Tao's [digestion of the
 counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/).
